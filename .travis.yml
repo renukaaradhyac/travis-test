@@ -1,8 +1,9 @@
+dist: xenial
 language: go
 
 services:
   - docker
   
 script:
-  -docker version
-  -docker-compose --version
+  - docker version
+  - docker-compose --version
