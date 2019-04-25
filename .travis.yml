@@ -1,1 +1,5 @@
 language: go
+
+script:
+ - echo hello
+ - env
