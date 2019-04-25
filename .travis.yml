@@ -2,3 +2,7 @@ language: go
 
 services:
   - docker
+  
+script:
+  -docker version
+  -docker compose --version
